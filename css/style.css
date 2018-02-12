@@ -1,0 +1,38 @@
+body{
+	background-color:#C4FFF9
+}
+.wrapper{
+	max-width:70%;
+	margin:0 auto;
+	border:solid;
+	padding: 10px;
+	background-color:#C4FFF9
+}
+h1{
+	text-align:center;
+}
+section{
+	background-color:#9CEAEF;
+}
+h2{
+	color:#0094CA;
+}
+h3{
+	color:#0094CA;
+}
+article{
+	color:#0094CA;
+}
+img{
+	max-width:20%;
+	float:right;
+	margin:15px;
+	border:solid black 5px;
+}
+.clearfix:after{
+	content:".";
+	visibility: hidden;
+	display:block;
+	height:0;
+	clear:both;
+}
