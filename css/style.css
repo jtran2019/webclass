@@ -1,27 +1,31 @@
 body{
-	background-color:#C4FFF9
+	background-color:#EB4A5F
 }
 .wrapper{
 	max-width:70%;
 	margin:0 auto;
-	border:solid;
+	border:solid #0C2833 20px;
 	padding: 10px;
-	background-color:#C4FFF9
+	background-color:#FFECE2
 }
 h1{
 	text-align:center;
+	text-align: center;
 }
 section{
-	background-color:#9CEAEF;
+	background-color:#FFECE2;
 }
 h2{
-	color:#0094CA;
+	color:#2521C6;
+	text-align: center;
 }
 h3{
-	color:#0094CA;
+	color:#2521C6;
+	text-align: center;
 }
 article{
-	color:#0094CA;
+	color:#2521C6;
+	clear:right;
 }
 img{
 	max-width:20%;
