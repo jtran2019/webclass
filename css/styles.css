@@ -1,0 +1,118 @@
+.wrapper{
+	background-color:#2B9ED9;
+	margin:0 auto;
+	max-width:70%;
+	border:solid #020202 15px;
+	padding:20px;
+}
+
+
+
+body{
+	background-color:#ffffff;
+}
+
+h1 {
+	background-color:#232957;
+	font-size: 50px;
+	text-align: center;
+	color:#FFFFFF;
+	font-family:"Courier New",monospace;
+}
+
+p {
+	color:#FFFFFF;
+	font-family:"Courier New",monospace;
+}
+
+img {
+	max-width: 80%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: double #020202 15px;
+}
+
+footer{
+	text-align: center;
+}
+
+h1:hover {
+	background-color: #2B9ED9;
+	color: #2B9ED9;
+}
+
+.biopics {
+	display: inline;
+	max-width: 20%;
+}
+.head {
+	background-image: url(../images/coding.jpg);
+	background-size: 100%;
+	position: relative;
+	margin: 0 auto;
+}
+
+.top{
+	border-style: none;
+	display: block;
+	float: left;
+	clear: left;
+	margin-left: none;
+	margin-right: none;
+	max-width: 100%;
+}
+
+@keyframes fade {
+	0% {
+		opacity: 1;
+	}
+	25% {
+		opacity: 1;
+	}
+	75% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+.bottom{
+	border-style: none;
+	position: absolute;
+	display: inline;
+	margin-left: none;
+	margin-right: none;
+	position: absolute;
+	max-width: 100%;
+}
+.top:hover{
+	animation-name: fade;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-delay: -1s;
+	animation-duration: 3s;
+	animation-direction: alternate;
+}
+
+.clearfix::after{
+	content: " ";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+.noborder{
+	border-style: none;
+	
+}
+h6{
+	text-align: center;
+}
+.pep{
+	max-height: 260px;
+	margin: 1% 1% 1% 1%;
+	display: inline-block;
+}
